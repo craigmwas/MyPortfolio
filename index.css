@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #bba694;
+}
+
+section{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #ffffd5;
+    font-size: 2cm;
+    text-decoration: none;
+    background: #9b7239;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li{
+    list-style: none;
+    margin-left: 30px;
+    padding: 10px;
+    transform: 0.3s;
+    font-size: 0.9cm;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #7a551c;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.navbar li a:hover{
+    color: #ffffd5;
+    background: #ffffd5;
+}
+
+.container{
+    position:relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .content-box{
+    position: relative;
+    max-width: 700px;
+}
+
+.container .content-box h2{
+    font-size: 2.2cm;
+    color: #7a551c;
+    line-height: 1.3;
+    padding-left: 30px;
+}
+
+.container .content-box span{
+    background: #9b7239;
+    color: #ffffd5;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 3.3cm;
+}
+
+.container .content-box p{
+    font-size: 0.7cm;
+    line-height: 1.5;
+    color: #7a551c;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    margin-bottom: 28px;
+}
+
+.container .content-box a{
+    text-decoration: none;
+    background: #7a551c;
+    color: #ffffd5;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.container .content-box a:hover{
+    color: #7a551c;
+    background: #ffffd5;
+}
